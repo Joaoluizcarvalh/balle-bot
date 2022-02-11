@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a{
+    font-family: 'Sarala', sans-serif;
+    margin: 1rem;
+    color: #FFF2E7;
+}
+
+.conteudo{
+    border-top:  1px solid oldlace;
+    margin-bottom: 40px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.text-section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-section-one-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 65px;
+    color: #FFF2E7;
+
+
+}
+
+.text-section-one-sub{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+
+.text-section-one-buttom{
+    cursor: pointer;
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    background: #ECD6C4;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 180px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 24px;
+    
+}
+
+.text-section-two-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.text-section-two-sub{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ECD6C4;
+}
+
+footer{
+    border-top: 1px solid oldlace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer img{
+    padding: 35px;
+}
