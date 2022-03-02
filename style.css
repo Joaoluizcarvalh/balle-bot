@@ -114,3 +114,17 @@ footer{
 footer img{
     padding: 35px;
 }
+
+::-webkit-scrollbar-track{
+    background-color: #ECD6C4;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ECD6C4;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #2F2325;
+    border-radius: 15px;
+}
